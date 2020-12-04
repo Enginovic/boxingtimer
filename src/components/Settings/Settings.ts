@@ -8,5 +8,5 @@ import Timeselector from 'vue-timeselector';
 })
 
 export default class Settings extends Vue {
-  
+  protected rounds = new Date();
 }

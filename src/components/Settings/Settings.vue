@@ -2,7 +2,7 @@
 <div>
   <div class="box">
     <label>Rounds</label>
-    <input type="number" value="12" />
+    <timeselector v-model="rounds"></timeselector>
   </div>
   <div class="box">
     <label>Round</label>
@@ -12,7 +12,6 @@
     <label>Rest</label>
     <input type="number" value="12" />
   </div>
-  <timeselector></timeselector>
   </div>
 </template>
 
